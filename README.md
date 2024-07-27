@@ -24,7 +24,7 @@ The language used is Javascript and HTML.
 Right now, the current version can
 
 - Take keywords - Input through the extension
-- Replace it with a substitute word - The substitute word is <redacted> for now.
+- Replace it with a substitute word - The substitute word is \<redacted\> for now.
 
 In a future version, this can be improved by:
 - Adding an option to give a Gsheet url containing the trigger words so that you don't get triggered while adding the keywords.
