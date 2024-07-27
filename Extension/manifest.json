@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Blackout Trigger Keywords",
+  "description": "Blacken your triggers not your vision",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "version": "1.0",
+  "action": {
+    "default_popup": "clear_trigger.html",
+    "default_icon": "Aakrit.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["clear_trigger.js"]
+      
+    }
+  ]
+}
